@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Weather app</title>
+    <link rel="icon" href="Photos/drizzle.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter a city name" spellcheck="false" maxlength="20">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="error">Write a correct City name</div>
+        <div class="weather">
+            <img src="Photos/clouds.png">
+            <h1 class="temp">N/A°c</h1>
+            <h1 class="city">Enter a city name</h1>
+        </div>
+        <div class="more">
+            <div class="humidity">
+                <div class="up">
+                    <img src="Photos/humidity.png">
+                    <h1>N/A%</h1>
+                </div>
+                <div class="down">
+                    <P>Humidity</P>
+                </div>
+            </div>
+            <div class="wind">
+                <div class="up">
+                    <img src="Photos/wind.png">
+                    <h1>N/A Km/h</h1>
+                </div>
+                <div class="down">
+                    <P>Wind Speed</P>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='main.js'></script>
+</body>  
+</html>
